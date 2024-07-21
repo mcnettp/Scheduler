@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{c3b572b3-da3c-4009-ba00-ed0a47842c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\include">
+      <UniqueIdentifier>{8f17aa9e-41a2-4661-b5cf-b1207aaaf9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\source">
+      <UniqueIdentifier>{be31c995-a742-4edb-b21f-bfb00b73e241}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dist\source\main.cpp">
+      <Filter>Model\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
